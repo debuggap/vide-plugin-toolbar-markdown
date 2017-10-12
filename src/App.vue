@@ -7,6 +7,7 @@
 
 <script>
 import path from 'path'
+import './custom.css'
 
 export default {
   props: ['packagePath'],

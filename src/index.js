@@ -1,18 +1,8 @@
 import App from './App.vue'
 import path from 'path'
-var hljs = require('highlight.js')
-var md = require('markdown-it')({
-  highlight: function (str, lang) {
-    console.log(str, lang)
-    if (lang && hljs.getLanguage(lang)) {
-      console.log('ok')
-      try {
-        return hljs.highlight(lang, str).value
-      } catch (__) {}
-    }
-    return ''
-  }
-})
+// var hljs = require('highlight.js')
+var md = require('markdown-it')()
+  .use(require('markdown-it-highlightjs'))
 
 export default ({editor, store, view, packageInfo, baseClass}) => {
   let isCreated = false

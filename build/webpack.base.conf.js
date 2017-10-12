@@ -28,7 +28,8 @@ module.exports = {
   },
   externals: {
     'highlight.js': 'highlight.js',
-    'markdown-it': 'markdown-it'
+    'markdown-it': 'markdown-it',
+    'markdown-it-highlightjs': 'markdown-it-highlightjs'
   },
   module: {
     rules: [
