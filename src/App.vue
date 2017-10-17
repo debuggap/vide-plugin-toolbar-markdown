@@ -1,5 +1,5 @@
 <template>
-  <div class="marddown-browser" style="z-index:100">
+  <div class="markdown-browser" style="z-index:100">
     <div v-html="content"></div>
     <link :href="mdStyle" rel="stylesheet">
   </div>
@@ -7,7 +7,7 @@
 
 <script>
 import path from 'path'
-import './custom.css'
+import './custom.scss'
 
 export default {
   props: ['packagePath'],
@@ -26,7 +26,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.marddown-browser {
+.markdown-browser {
   position: absolute;
   right: 0;
   width: 400px;

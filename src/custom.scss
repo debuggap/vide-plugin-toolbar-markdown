@@ -1,0 +1,80 @@
+.markdown-browser{
+  font-size:14px;
+  
+  blockquote {
+    padding: 0 1em;
+    color: #6a737d;
+    border-left: 0.25em solid #dfe2e5;
+    color: #6a737d;
+    margin: 0;
+    margin-bottom: 16px;
+    p {
+      margin:0;
+    }
+  }
+  
+  table {
+    border: 1px solid #ddd;
+    margin: 16px 0;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align:left;
+    
+    thead {
+      background-color: #fafafa;
+    }
+    
+    td, th {
+      padding: 8px;
+      border-right: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+    }
+  }
+  
+  a {
+    color: #0366d6;
+    text-decoration: none;
+  }
+  
+  h1 {
+    font-size: 1.75em;
+    font-weight: 600;
+    margin: 24px 0 16px;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #eaeaea;
+    color: rgba(0, 0, 0, 0.85)
+  }
+  
+  h1:first-child {
+    margin-top: 0
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 24px 0 16px;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #eaeaea;
+    color: rgba(0, 0, 0, 0.85)
+  }
+  
+  h3 {
+    margin: 24px 0 16px;
+    font-size: 1.3em
+  }
+  
+  h4 {
+    margin: 24px 0 16px;
+    font-size: 1.2em
+  }
+  
+  h5 {
+    margin: 24px 0 16px;
+    font-size: 1em
+  }
+  
+  h6 {
+    margin: 24px 0 16px;
+    font-size: 0.95em
+  }
+}
